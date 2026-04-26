@@ -7,6 +7,5 @@
         public string Position { get; set; } = null!;
         public string Decription { get; set; } = null!;
         public string? ImageUrl { get; set; }
-        public bool IsActive { get; set; }
     }
 }

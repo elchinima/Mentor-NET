@@ -4,7 +4,6 @@ namespace Mentor.NET.ViewModels
 {
     public class ExpertVm
     {
-        public Expert Expert { get; set; }
-
+        public List<Expert> Experts { get; set; } = new List<Expert>();
     }
 }
